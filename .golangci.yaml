@@ -35,7 +35,7 @@ run:
     - main
     - scripts
     - tests
-    - cmd
+#    - cmd
 linters-settings:
   staticcheck:
     # Select the Go version to target. The default is '1.13'.
