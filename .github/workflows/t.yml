@@ -16,6 +16,7 @@ jobs:
        id: lint
        run: golangci-lint run
   jobs2:
+    needs: [analyze]
     runs-on: ubuntu-latest
     steps:
       - name: echo
